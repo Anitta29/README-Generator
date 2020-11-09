@@ -1,7 +1,11 @@
+// saving pckg in const
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+
+// creating my function ti get user's input
 async function getUserInput() {
+    try {
     const questions = await inquirer.prompt([
         
         {
@@ -16,7 +20,7 @@ async function getUserInput() {
         },
         {
             type: "input",
-            message: "What is the table of contents",
+            message: "Please provide table of contents",
             name: "contents",
         },
         {
@@ -31,7 +35,7 @@ async function getUserInput() {
         },
         {
             type: "input",
-            message: "What is the license",
+            message: "Which license are you using?",
             name: "license",
         },
         {
@@ -54,17 +58,15 @@ async function getUserInput() {
             message: "What is your email address?",
             name: "questTwo",
         },
-
-
-
-
-
-
     ])
+    return questions;
+    } catch(error) {
+        console.log(error);
+    }
+};
+// generating HTML with answers
+async function writeHTML() {
 
-
-
-
-
-
+    const answers = await getUserInput();
+    const {title, description, contents, installations, usage, license, contributing, tests, questOne, questTwo} = await getUserInput();
 }
