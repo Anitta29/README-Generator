@@ -3,11 +3,7 @@ const fs = require("fs");
 
 async function getUserInput() {
     const questions = await inquirer.prompt([
-        {
-            type: "input",
-            message: "What is your GitHub User name?",
-            name: "username",
-        },
+        
         {
             type: "input",
             message: "What is the Title of your project?",
@@ -50,8 +46,13 @@ async function getUserInput() {
         },
         {
             type: "input",
+            message: "What is your GitHub User name?",
+            name: "questOne",
+        },
+        {
+            type: "input",
             message: "What is your email address?",
-            name: "email",
+            name: "questTwo",
         },
 
 
