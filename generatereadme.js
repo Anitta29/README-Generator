@@ -7,7 +7,7 @@ function checkLicense(license) {
 // make a function to render the license
 
 // make a function to render the readME
-function generateReadMe(data){
+function generateReadMe(data) {
     return `# ${data.title};
     ## Description 
     ${data.description};
@@ -15,16 +15,52 @@ function generateReadMe(data){
     ## Table of Contents
 
 
-* [Installation](#installation)
+* [Installation](#installations)
 * [Usage](#usage)
+* [License](#license)
+* [Contribution](#contributing)
+* [Tests](#tests)
+* [Questions](#questOne, #questTwo)
 
 ---
 
 ## Intallations
 Download tha app and run....
 ${data.installations};
+
+---
+
+## Usage
+
+${data.usage}
+
+---
+
+## License
+
+${data.license}
+
+---
+
+## Contribution
+
+${data.contributing}
+
+---
+
+## Tests
+
+${data.tests}
+
+---
+
+## Questions
+
+${data.questOne}
+${data.questTwo}
 `}
-    
-    
-    module.exports = generateReadMe;
-// last at botem export th
+
+
+
+// always at the end of code
+module.exports = generateReadMe;

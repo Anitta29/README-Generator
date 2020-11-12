@@ -69,7 +69,7 @@ const questions = [
 async function init(){
     try {
       const answers = await inquirer.prompt(questions)  
-      console.log("Generating Readm");
+      console.log("Generating Readme");
       console.log(answers);
 
       await writeFileAsync("Readme.md", generateReadMe(answers))
