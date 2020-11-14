@@ -34,7 +34,7 @@ function generateReadMe(data) {
 ---
 
 ## Intallations
-Download tha app and run....
+
 ${data.installations};
 
 ---
@@ -65,7 +65,7 @@ ${data.tests}
 ---
 
 ## Questions
-If you have any question ${data.questOne}
+If you have any question please check my GitHub page ${data.questOne} or email me at
 ${data.questTwo}
 `
 

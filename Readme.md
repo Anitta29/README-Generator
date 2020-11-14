@@ -1,7 +1,7 @@
-# aerg;
+# README Generator;
    
     ## Description 
-    tg;
+    This project helps to generate README;
     ---
     ## Table of Contents
 
@@ -16,14 +16,14 @@
 ---
 
 ## Intallations
-Download tha app and run....
-rth;
+
+You need to download node js first. Then you need to open your terminal and run an appropriate file.;
 
 ---
 
 ## Usage
 
-rt
+It's used to create professional README for any application
 
 ---
 
@@ -36,16 +36,16 @@ MIT
 
 ## Contribution
 
-dg
+It's a great project, that can help developer do their job flawless and it gives users clear explanation of the app
 
 ---
 
 ## Tests
 
-er
+No tests
 
 ---
 
 ## Questions
-If you have any question er
-er
+If you have any question please check my GitHub page Anitta29 or email me at
+dananiuta@gmail.com
