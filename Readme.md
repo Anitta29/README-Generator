@@ -1,10 +1,14 @@
 # README Generator;
-   
-    ## Description 
-    This project helps to generate README;
-    ---
-    ## Table of Contents
 
+---
+   
+## Description 
+This project helps to generate README;
+
+---
+    
+## Table of Contents
+Please see table of contents below
 
 * [Installation](#installations)
 * [Usage](#usage)
@@ -17,7 +21,7 @@
 
 ## Intallations
 
-You need to download node js first. Then you need to open your terminal and run an appropriate file.;
+You need to download node js first. Then you need to open your terminal and run an appropriate file;
 
 ---
 
@@ -42,10 +46,10 @@ It's a great project, that can help developer do their job flawless and it gives
 
 ## Tests
 
-No tests
+No Tests
 
 ---
 
 ## Questions
-If you have any question please check my GitHub page Anitta29 or email me at
+If you have any question please check my GitHub page https://github.com/Anitta29 or email me at
 dananiuta@gmail.com
