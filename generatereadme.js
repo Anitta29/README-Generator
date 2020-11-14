@@ -29,7 +29,7 @@ function generateReadMe(data) {
 * [License](#license)
 * [Contribution](#contributing)
 * [Tests](#tests)
-* [Questions](#questOne, #questTwo)
+* [Questions](#questOne)
 
 ---
 
@@ -65,7 +65,7 @@ ${data.tests}
 ---
 
 ## Questions
-${data.questOne}
+If you have any question ${data.questOne}
 ${data.questTwo}
 `
 
