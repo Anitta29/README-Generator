@@ -29,7 +29,7 @@ function generateReadMe(data) {
 * [License](#license)
 * [Contribution](#contributing)
 * [Tests](#tests)
-* [Questions](#questOne)
+* [Questions](#questions)
 
 ---
 
