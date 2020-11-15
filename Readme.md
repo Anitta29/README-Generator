@@ -55,3 +55,6 @@ If you have any question please check my GitHub page https://github.com/Anitta29
 dananiuta@gmail.com
 
 ## Appearance 
+<img width="1382" alt="Screen Shot 2020-11-14 at 6 57 06 PM" src="https://user-images.githubusercontent.com/67982161/99159681-bd793600-26ac-11eb-85cb-4f004217740c.png">
+
+<img width="1364" alt="Screen Shot 2020-11-14 at 7 03 18 PM" src="https://user-images.githubusercontent.com/67982161/99159684-c833cb00-26ac-11eb-83b4-9352375d4230.png">
